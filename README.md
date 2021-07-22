@@ -34,7 +34,7 @@ bash hanger.sh
 ## One Line Installation
 
 ```bash
-apt upgrade -y ; apt update -y ; pkg install git -y ; pkg install pv -y ; pip install lolcat ; git clone https://GitHub.com/jatinkalwar/hanger ; ls ; cd hanger ; cd hanger.sh
+apt upgrade -y ; apt update -y ; pkg install git -y ; pkg install pv -y ; pip install lolcat ; git clone https://GitHub.com/jatinkalwar/hanger ; ls ; cd hanger ; bash hanger.sh
 ```
     
 ## Roadmap
