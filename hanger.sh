@@ -329,10 +329,6 @@ upda() {
 
 cd $HOME/hanger/deal
 rm hang.txt
-else
-echo
-exit 1
-fi
 cd $HOME
 echo -e "          \e[96mFIXING BUGS, PLEASE WAIT FOR A WHILE...!\e[0m"
 echo
