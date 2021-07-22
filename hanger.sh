@@ -1,4 +1,4 @@
-# A tool by nitro from www.noob-hackers.com
+# A tool by nitro from yourhackinghouse
 # Be a unique person not copy cat
 # Colours
 #-----------------
