@@ -112,6 +112,8 @@ then
 about
 elif [ $optnz = "5" ];
 then
+clear
+banner
 upd
 elif [ $optnz = "6" ];
 then
