@@ -44,7 +44,7 @@ cd hanger
 clear
 echo ""
 echo ""
-echo -e "     \e[92m[\e[91m~\e[92m]\e[91m Restarting MASTER-BOMBER 2.O !\e[93m"
+echo -e "     \e[92m[\e[91m~\e[92m]\e[91m Restarting HANGER !\e[93m"
 sleep 2
 bash hanger.sh
 clear
