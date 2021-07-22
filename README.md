@@ -6,7 +6,7 @@ In this script you can make a link contains virus for you victim device when vic
 
 ## Screenshots
 
-![App Screenshot] (https://github.com/jatinkalwar/hanger/blob/main/deal/Screenshot_2021-07-22-12-35-51-21_84d3000e3f4017145260f7618db1d683.jpg)
+![App Screenshot](https://github.com/jatinkalwar/hanger/blob/main/deal/Screenshot_2021-07-22-12-35-51-21_84d3000e3f4017145260f7618db1d683.jpg)
   
 ## Authors
 
