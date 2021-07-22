@@ -1,6 +1,5 @@
-# A tool by nitro from yourhackinghouse
-# Be a unique person not copy cat
-# Colours
+# coded  by Jatin Kalwar from yourhackinghouse
+
 #-----------------
 red="\e[91m"
 rset="\e[0m"
@@ -266,7 +265,7 @@ vir() {
 clear
 banner
 figlet HANGER | lolcat
-echo -e "\e[31mPLEASE ENTER ACCESS KEY IF YOU DON'T HAVE ACCESS KEY THEN GO TO MAIN MENU AND CHOOSE OPTION 2 FOR ACCESS KEY" | pv -qL 50 
+echo -e "\e[31mPLEASE ENTER ACCESS KEY IF YOU DON'T HAVE ACCESS KEY THEN GO TO MAIN MENU AND CHOOSE OPTION 3 FOR ACCESS KEY" | pv -qL 50 
 echo -e "\e[93m"
 read  -p "ACCESS KEY: " access
 cd $HOME/hanger/deal
@@ -298,7 +297,7 @@ sav() {
 clear
 banner
 figlet HANGER | lolcat
-echo -e "\e[31mPLEASE ENTER ACCESS KEY IF YOU DON'T HAVE ACCESS KEY THEN GO TO MAIN MENU AND CHOOSE OPTION 2 FOR ACCESS KEY" | pv -qL 50 
+echo -e "\e[31mPLEASE ENTER ACCESS KEY IF YOU DON'T HAVE ACCESS KEY THEN GO TO MAIN MENU AND CHOOSE OPTION 3 FOR ACCESS KEY" | pv -qL 50 
 echo -e "\e[93m"
 read  -p "ACCESS KEY: " access
 cd $HOME/hanger/deal
