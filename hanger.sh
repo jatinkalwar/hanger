@@ -327,12 +327,6 @@ menu
 
 upda() {
 
-if [ -d "$HOME/hanger/deal" ];
-then
-cd $HOME/hanger/deal
-rm hang.txt
-elif [ -d "$HOME/hanger/deal" ];
-then
 cd $HOME/hanger/deal
 rm hang.txt
 else
