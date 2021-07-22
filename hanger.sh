@@ -102,6 +102,11 @@ elif [ $optnz = "2" ];
 then
 
 sav
+elif [ $optnz = "3" ];
+then
+am start -a android.intent.action.VIEW -d https://gplinks.co/1aKB > /dev/null 2>&1
+banner
+menu
 elif [ $optnz = "4" ];
 then
 about
@@ -274,7 +279,7 @@ echo -e "               \e[34m ============================\e[34m"
 echo -e "               \e[34m |     \e[93mOOPS WRONG KEY...!\e[34m   |"
 echo -e "               \e[34m |                          |"
 echo -e "               \e[34m |    Use shortlink for key |"
-echo -e "               \e[34m |\e[92mhttps://gplinks.co/HsAVzF\e[34m |"
+echo -e "               \e[34m |\e[92mhttps://gplinks.co/1aKB  \e[34m |"
 echo -e "               \e[34m |            [OR]          |"
 echo -e "               \e[34m |\e[92m    https://bit.ly/3AeiAuD\e[34m|"
 echo -e "               \e[34m ============================\e[34m"
@@ -306,7 +311,7 @@ echo -e "               \e[34m ============================\e[34m"
 echo -e "               \e[34m |     \e[93mOOPS WRONG KEY...!\e[34m   |"
 echo -e "               \e[34m |                          |"
 echo -e "               \e[34m |    Use shortlink for key |"
-echo -e "               \e[34m |\e[92mhttps://gplinks.co/HsAVzF\e[34m |"
+echo -e "               \e[34m |\e[92mhttps://gplinks.co/1aKB  \e[34m |"
 echo -e "               \e[34m |            [OR]          |"
 echo -e "               \e[34m |\e[92m    https://bit.ly/3AeiAuD\e[34m|"
 echo -e "               \e[34m ============================\e[34m"
@@ -333,7 +338,7 @@ echo
 exit 1
 fi
 cd $HOME
-echo -e "         \e[96mUPDATING API, PLEASE WAIT FOR A WHILE...!\e[0m"
+echo -e "          \e[96mFIXING BUGS, PLEASE WAIT FOR A WHILE...!\e[0m"
 echo
 printf "                     \e[96m["
 # While process is running...
@@ -345,7 +350,7 @@ printf "\e[96m]\e[0m"
 echo
 echo
 echo
-printf "\e[96m           API UPDATED SUCCESSFULLY (LATEST VERSION)..!\e[0m"
+printf "\e[96m              BUGS FIXED SUCCESSFULLY (LATEST VERSION)..!\e[0m"
 
 cd $HOME
 cd toolupdater/error
@@ -365,8 +370,8 @@ if [[ $ecret = $ztet ]];
 then
 cd $HOME/hanger/deal
 rm update.txt
-echo "hieee"
-sleep 3.0
+cd $HOME/hanger/deal
+bash update.sh
 else
 cd $HOME/hanger/deal
 rm update.txt
